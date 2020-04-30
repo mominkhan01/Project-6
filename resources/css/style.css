@@ -1,0 +1,580 @@
+/*========================================
+
+Template Name: Neve portfolio Template
+Template URI: #
+Description: Neve portfolio Template
+Author: Momin Khan
+Author URI: mominkhan.me
+Support: Momin Khan
+Version: 1.0
+
+========================================*/
+
+/*========================================
+
+CSS INDEX
+=========
+
+1. Common css
+2. Hero
+3. About
+4. WORK
+5. Experiment Section
+6. Work
+7. Testimonial
+8. Contact
+9. Footer
+
+========================================*/
+
+/* Common css */
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #EEF0ED;
+    color: #18191D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* Reusuble Componet*/
+
+section{
+    padding: 80px 0;
+}
+
+.btn:link,
+.btn:visited{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 180%;
+    font-weight: 700;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:visited{
+    background: transparent;
+}
+
+/*===================================
+  
+NAV SECTION
+
+=====================================*/
+
+.hero ul{
+   color:#000; 
+}
+
+
+.hero ul li{
+    padding: 0 15px;
+    color: #000;
+}
+
+.hero ul li a{
+    font-size: 140%;
+    font-weight: 700;
+    padding: 0 15px;
+    color: #000;
+}
+
+.hero ul li:nth-child(4){
+    padding-right: 0px;
+}
+
+
+
+/*===================================
+  
+HEADER SECTION
+
+=====================================*/
+
+#header{
+    background: url('img/1.jpg') no-repeat center / cover;
+    width: 100%;
+    height: 100%;
+    padding: 180px;
+}
+.head{
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+.head h1{
+    font-size: 700%;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.head p{
+    font-size: 220%;
+    margin-bottom: 30px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+  background: #FCAF3B;
+  color: #2B2B2B;
+}
+
+.btn-full:hover{
+    background: #fff;
+    color: #FCAF3B;
+}
+.btn-full-full{
+    color:#2B2B2B;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btn-full-full:hover{
+    background: #fff;
+    color:#2B2B2B;
+}
+
+
+/*===================================
+  
+CHOOSE ME SECTION
+
+=====================================*/
+
+
+#choose-me{
+    background: #fff;
+    text-align: center;
+}
+
+.icon i{
+    font-size: 400%;
+    color: #FCAF3B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.descripsion h2{
+    font-size: 250%;
+    font-weight: 700;
+    color: #2B2B2B;
+    margin-bottom: 15px;
+}
+
+.descripsion p{
+    font-size: 160%
+}
+
+/*===================================
+  
+WEB DESIGN
+
+=====================================*/
+
+.design{
+   text-align: center;
+    margin-top:175px;
+}
+.design h1{
+    font-size: 500%;
+    font-weight: 700;
+    color: #2B2B2B;
+    margin-bottom: 15px;
+}
+
+.design p{
+    font-size: 150%;
+    color: #2B2B2B;
+}
+.mobile{
+}
+
+
+/*===================================
+  
+VALUES SECTION
+
+=====================================*/
+
+#values{
+    background: #18191D;
+}
+
+.we{
+    margin-top: 150px;
+    margin-left: 15px;
+}
+.we h1{
+    font-size: 500%;
+    font-weight: 700;
+    color:#fff;
+    margin-bottom: 15px;
+}
+
+.we p{
+    font-size: 160%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/*===================================
+  
+FEATURE  SECTION
+
+=====================================*/
+
+#feature{
+    background: #fff;
+}
+.fea h1{
+    font-size: 500%;
+    font-weight: 700;
+    color: #18191D;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+
+.fea a{
+    text-decoration: none;
+    float: right;
+    font-size: 140%;
+    text-transform: uppercase;
+    color: #fff;
+    background: #18191D; 
+    padding: 7px 15px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+
+/*===================================
+  
+REVIEW   SECTION
+
+=====================================*/
+
+.star-icon i{
+    font-size: 160%;
+    color: #FCAF3B;
+    margin-bottom: 28px;
+}
+
+.lorem p{
+    font-size: 160%;
+    margin-bottom: 20px;
+}
+
+.picture img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.picture h3{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.picture p{
+    display: inline-block;
+    color: #FCAF3B;
+    font-size: 160%;
+    font-weight: 400;
+    margin-left: 5px;
+    
+}
+
+
+/*===================================
+  
+TALK SECTION
+
+=====================================*/
+
+#talk{
+    background: #18191D;
+    text-align: center;
+}
+
+.work h1{
+    font-size: 500%;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.work p{
+    font-size: 180%;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+/*===================================
+  
+FOOTER SECTION
+
+=====================================*/
+
+#footer{
+    background: #18191D;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#footer p{
+    font-size: 180%;
+    font-weight: 400;
+}
+
+
+
+/*===================================
+  
+END INDEX.HTML  SECTION
+
+=====================================*/
+
+
+/*===================================
+  
+START ABOUT.HTML  SECTION
+
+=====================================*/
+#story{
+    padding-top: 160px;
+}
+.our-story{
+    margin-top: 55px;
+}
+
+.our-story h1{
+    font-size: 500%;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.our-story p{
+    font-size: 180%
+}
+
+/*===================================
+  
+DIFFERENT SECTION
+
+=====================================*/
+
+#different{
+    background: #18191D;
+}
+
+.we{
+  margin-top:  
+}
+
+.we h1{
+    font-size: 280%;
+    font-weight: 700;
+}
+
+/*===================================
+  
+ABOUT SECTION
+
+=====================================*/
+
+#portfolio{
+    padding-top: 160px;
+}
+
+.totall{
+    text-align: center;
+}
+
+.podobi h2{
+    font-size: 280%;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.podobi p{
+    font-size:180%;
+    text-transform: uppercase;
+}
+
+.icons{
+    font-size: 200%;
+}
+
+/*===================================
+  
+PORTFOLIO SECTION
+
+=====================================*/
+
+.buzz{
+    text-align: center;
+}
+.buzz h2{
+    font-size: 400%;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.buzz p{
+    font-size: 170%;
+}
+.mon{
+    margin-top: 30px;
+}
+
+.khan{
+    margin-top: 60px;
+}
+
+/*===================================
+  
+TESTIMONIAL SECTION
+
+=====================================*/
+
+#testimonial{
+    text-align: center;
+    background: #18191D;
+}
+
+.icons{
+    color:#F0AD4E;
+    margin-bottom: 20px;
+}
+
+.lorem-ipsum p{
+    font-size: 180%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+ 
+.image img{
+    height: 60px;
+    width: 60;
+    border-radius: 50%;
+}
+
+.image h5{
+    font-size: 200%;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.image p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*===================================
+  
+PHONE SECTION
+
+=====================================*/
+
+
+#phone{
+    text-align: center;
+}
+.page1{
+    background: #fff;
+    padding:30px;
+}
+.ion i{
+    font-size: 300%;
+    margin-bottom: 15px;
+}
+
+.ion h3{
+    font-size:300%;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.ion p{
+    font-size: 160%; 
+}
+
+#contact{
+    background: #18191D;
+}
+
+.message h1{
+    font-size: 500%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.message p{
+    font-size: 150%;
+    color: #fff;
+    margin-top: 20px;
+}
+.mom{
+    margin: 70px 0 70px 0;
+}
+.form-control{
+    background: none;
+    border:none;
+}
+.name h6, .email h6, .message h6{
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.email h6, .message h6{
+    margin-top: 10px
+}
+ input, textarea{
+    border:none;
+    padding: 15px;
+    width: 100%;
+    font-size: 160%;
+    color: #333;
+}
